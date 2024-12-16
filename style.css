@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #949b9d;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  id{   
+    left: 70px;
+    background-color: #333;
+    border-radius: 3px ;
+  }
+  #hero {
+    background-color: #a8a8aa;
+    color: white;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+  }
+  
+  #hero button {
+    background-color: #5a1a32;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #hero button:hover {
+    background-color: #674d66;
+  }
+  
+  section {
+    padding: 40px;
+    margin: 20px 0;
+
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .feature {
+    background-color: #eddde0;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer a {
+    color: #858d71;
+    text-decoration: none;
+  }
+  
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.language-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+
+.content {
+  /* height: 2000px; لجعل الصفحة أطول حتى نتمكن من التمرير */
+  background-image: url('../photo/images\ \(1\).jpeg'); /* مسار الصورة */
+  background-attachment: fixed; /* لجعل الصورة ثابتة أثناء التمرير */
+  background-size: cover; /* لضبط الصورة لتغطي كامل الخلفية */
+  background-position: center; /* لضبط الصورة في المنتصف */
+  text-align: center;
+  color: black;
+  font-family: Arial, sans-serif;
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+
+img{
+  border-radius: 3px ;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/* me */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.about-designer {
+  padding: 20px;
+}
+
+.about-designer h2 {
+  margin-top: 0;
+}
+
+.about-designer p {
+  margin-bottom: 20px;
+}
+
+.about-designer img {
+  object-fit: cover;
+  border-radius: 10px;
+    /* height: 2000px; لجعل الصفحة أطول حتى نتمكن من التمرير */
+    background-image: url('../smart-home-background-flat-style_23-2147850591.avif'); /* مسار الصورة */
+    background-attachment: fixed; /* لجعل الصورة ثابتة أثناء التمرير */
+    background-size: cover; /* لضبط الصورة لتغطي كامل الخلفية */
+    background-position: center; /* لضبط الصورة في المنتصف */
+    text-align: center;
+    color: black;
+    font-family: Arial, sans-serif;
+    padding: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+.skills {
+  padding: 20px;
+}
+
+.skills h2 {
+  margin-top: 0;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills li {
+  margin-bottom: 10px;
+}
+
+.experience {
+  padding: 20px;
+}
+
+.experience h2 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}

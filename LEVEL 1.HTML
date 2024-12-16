@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic LED System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .code {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            overflow-x: auto;
+        }
+        .image-container {
+            position: relative;
+            height: 300px;
+            overflow: hidden;
+        }
+        .image-container img {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            height: auto;
+            opacity: 0.8;
+        }
+        .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Automatic LED System</h1>
+    </header>
+
+    <div class="image-container">
+        <img src="https://via.placeholder.com/800x300.png?text=Automatic+LED+System" alt="Automatic LED System">
+        <div class="image-overlay">Automatic LED System </div>
+    </div>
+
+    <div class="container">
+        <h2>Required Components:</h2>
+        <ul>
+            <li>LED (Light Emitting Diode)</li>
+            <li>Motion Sensor (e.g., TSOP)</li>
+            <li>Connecting Wires</li>
+            <li>Power Supply</li>
+        </ul>
+
+        <h2>How It Works:</h2>
+        <p>The system operates as follows:</p>
+        <ol>
+            <li>When the sun sets the LDR sensor sends signals to the leds so the LED is automatically turned on.</li>
+            <li>When the sun rises the LDR sensor sends signals to the leds so the LED is automatically turned off.</li>
+        </ol>
+
